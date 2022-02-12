@@ -11,8 +11,34 @@ h1 {
     color: #ffffff;
     text-align: center;
 }
+header, footer {
+    font-size: 4rem;
+    font-weight: bold;
+    width: 100%;
+    color: #ffffff;
+    background-color: #98d1c7;
+    line-height: 100px;
+    text-align: center;
+}
+aside {
+    font-size: 4rem;
+    font-weight: bold;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #62b7b6;
+}
+.content {
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .articles {
-    height: calc(100vh - 6rem);
+    width: calc(70% - 3rem);
+    height: calc(100vh - 200px - 12rem);
     display: flex;
     align-items: flex-end;
     background-color: #fa7a7b;
@@ -34,7 +60,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 300px;
+    line-height: 250px;
     background-color: LightGray;
     color: white;
     text-align: center;
