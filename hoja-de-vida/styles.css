@@ -1,0 +1,100 @@
+* {
+    font-family: Consolas;
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    padding: 3rem;
+}
+body:before {
+    content: '';
+    width: 40vw;
+    min-height: 100vh;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #aaa;
+    z-index: -1;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+ul.list-with-stars li {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+address {
+    font-size: 1rem;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h2 {
+    margin-bottom: 1rem;
+}
+.photo {
+    width: 60%;
+}
+.photo img {
+    border-radius: 50%;
+}
+.info {
+    width: 40%;
+    padding-left: 2rem;
+}
+.info a {
+    color: gray;
+    display: block;
+    margin-top: 1rem;
+}
+.info:not(:first-child) h2 {
+    margin-top: 1rem;
+}
+.info h3 {
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+.info ul {
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.info-container {
+    width: 35%;
+}
+.study {
+    width: 50%;
+}
+.info-container .info, .study .info {
+    width: 100%;
+    padding-left: 0;
+}
+.study li {
+    margin-top: 1rem;
+}
+.study strong {
+    font-size: 1.2rem;
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed black;
+    margin-bottom: 0.5rem;
+}
